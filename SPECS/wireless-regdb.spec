@@ -1,8 +1,8 @@
 %global         _firmwarepath    /usr/lib/firmware
 
 Name:           wireless-regdb
-Version:        2024.01.23
-Release:        3%{?dist}
+Version:        2025.10.07
+Release:        1%{?dist}
 Summary:        Regulatory database for 802.11 wireless networking
 
 License:        ISC
@@ -62,6 +62,10 @@ rm -rf %{buildroot}/usr/lib/crda
 
 
 %changelog
+* Mon Feb 2 2026 Jose Ignacio Tornos Martinez <jtornosm@redhat.com> - 2025.10.07-1
+- Update to version 2025.10.07 from upstream
+- Resolves: RHEL-145609
+
 * Tue Oct 29 2024 Troy Dawson <tdawson@redhat.com> - 2024.01.23-3
 - Bump release for October 2024 mass rebuild:
   Resolves: RHEL-64018
